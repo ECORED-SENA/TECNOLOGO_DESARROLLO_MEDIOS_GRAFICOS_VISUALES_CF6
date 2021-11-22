@@ -198,7 +198,7 @@
                 i.fas.fa-chevron-right
                 | Características básicas en cuanto a todas las variables de diseño.       
 
-      .col-md-6.col-xl.mb-4.mb-md-5
+      .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta.bg-suave.p-4
           img.mb-4(src='@/assets/curso/tema1-4-tarj3.svg', alt='Observación del producto gráfico a partir de las siguientes variables')
           h4.text-center Observación del producto gráfico a partir de las siguientes variables
@@ -218,7 +218,7 @@
                 | Tipo de papel, sustrato y materiales.
 
 
-    .row.bg-elemento.justify-content-center.py-3.align-items-end(data-aos="fade-down") 
+    .row.bg-elemento.justify-content-center.py-3.align-items-end.mb-5(data-aos="fade-down") 
       .col-md-3.col-5.mb-4.mb-md-0
         img.px-md-5(src='@/assets/curso/tema1-4-ico.svg', alt='Icono decorativo')
       .col-md-8

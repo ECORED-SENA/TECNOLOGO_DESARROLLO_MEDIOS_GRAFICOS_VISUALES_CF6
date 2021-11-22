@@ -156,8 +156,8 @@ export default {
   &_6
     animation: scale 5s ease-in-out infinite alternate
     position: absolute
-    top: 4%
-    right: 22%
+    top: 26%
+    right: 34%
   &_7
     animation: scale 5s ease-in-out infinite alternate
     position: absolute
@@ -173,7 +173,7 @@ export default {
     position: absolute
     width: 150px
     bottom: 8%
-    right: 34%
+    right: 33.7%
 
 
 @keyframes float1
@@ -183,18 +183,28 @@ export default {
     transform: translateY(0px)
 @keyframes scale
   0%
-    transform: scale(1)
-
+    transform: scale(0.9)
   100%
-    transform: scale(0.8)
+    transform: scale(0.7)
 
+@media (min-width: $bp-min-xxl)
+  .banner-principal__img img
+    float: right
+  .imagen_escalable
+    &_6
+      top: 26%
+      right: 31%
+    &_7
+      top: 20%
+      right: 2%
+    &_8
+      bottom: -12%
+      right: 8%
+    &_9
+      bottom: 6%
+      right: 29.7%
 
 @media (max-width: $bp-max-md)
-  .fondo-contenido
-    display: none
-  .fondo-contenido2
-    background-repeat: no-repeat
-    background-size: cover
   .banner-principal__info
     padding-left: 15px  !important
   .imagen_flotante
