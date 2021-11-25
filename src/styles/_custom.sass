@@ -19,17 +19,63 @@ italic-strong
   background-color: #B1F9FF 
 .bg-suave
   background-color: #FFF3BF
+.bg-suave2
+  background-color: #FFF9DF  
+.bg-acento-contenido2
+  background-color: #FFAC57
+
 
 .bloque-fondo-intro
   background-image: url(../assets/curso/fondo-intro.png)
   background-repeat: no-repeat
   background-size: contain
   background-position: bottom
+.bloque-fondo-intro2
+  background-image: url(../assets/curso/fondo-intro2.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom  
 .bg-elemento
   background-image: url(../assets/curso/bg-elemento.png)
   background-repeat: no-repeat
   background-size: 100% 75%
   background-position: bottom  
+
+.titulo-tercero
+  background-color: #FDD835
+  width: fit-content
+  padding: 5px 14px
+  position: relative 
+  &__1 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -4.5%
+  &__2 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -13.5%  
+  &__3 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -9.5%   
+  &__4 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -33.5%  
+  &__5 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -29.5%   
+  &__6 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -17.5%   
 
 
 .pasos-a__linea__esquina__linea
@@ -43,11 +89,73 @@ italic-strong
 
 
 .cajon.color-primario 
-  background-color: #FFD1A2
-
+  background-color: #FFE9C8
+.cajon.color-secundario
+  background-color: #FFF3BF
 
 .acordion__activo
   background-color: #FFD1A2
+
+
+.tarjetas-flip1 .tarjeta-flip
+    height: 370px
+.tarjeta-flip.color-primario .tarjeta-flip__img
+  background-color: #FFF
+.tarjeta-flip.color-primario .tarjeta-flip__contenido
+  display: flex
+  flex-direction: column
+  justify-content: center  
+.tarjetas-flip2 .tarjeta-flip
+    height: 350px  
+@media (min-width: $bp-min-xxl)
+  .tarjetas-flip1 .tarjeta-flip
+    height: 350px
+
+
+.tabs-a__tab
+  background-color: #B1F9FF
+
+
+.slyder-f__btn i
+  padding: 7px 12px
+  font-size: 1.4rem
+  background-color: #FFF
+  border-radius: 50%
+  border: 2px solid #12263F
+
+.slyder__btn
+  background-color: #26CCDA
+.slyder__btn i
+  font-size: 20px
+.slyder__btn:hover
+  background-color: #D9BA2E
+  color: $color-sistema-texto
+
+
+.img-infografica-b__modal
+  background-color: #FFD1A2
+  color: $color-sistema-texto !important 
+.img-infografica__item__tooltip, .img-infografica-b__item__tooltip
+  background-color: #FFD1A2
+.img-infografica-b__modal__contenido div > *
+  color: $color-sistema-texto !important 
+.img-infografica-b__modal__btn-cerrar i
+  color: $color-sistema-texto !important 
+
+
+.tarjeta2-4 .tarjeta-numerada__numero
+  width: 40px
+  height: 40px
+  top: 35px
+.tarjeta2-4.tarjeta-numerada.color-acento-contenido
+  background-color: #B1F9FF
+  border-color: #B1F9FF
+
+
+.lista-ul--color.color-acento-botones li > i:first-of-type
+  color: #26ccda
+  font-size: 10px
+  padding-top: 3px
 
 
 
@@ -71,3 +179,18 @@ italic-strong
   display: inherit 
 .tarjetas1-4__hover .tarjeta:hover
   height: inherit   
+
+// TARJETA DISPLAY TEMA 2-1 
+.tarjeta-display
+  display: block
+  position: relative
+.tarjeta-display .contenido 
+  display: block  
+  position: relative
+.tarjeta-display .contenido p
+  display: none
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+.tarjeta-display .contenido:hover p
+  display: inherit 
