@@ -29,7 +29,7 @@
 
     .row
       .col-md-7.mb-4(data-aos="fade-right")
-        p Para obtener información sobre cómo realizar un proyecto gráfico se debe iniciar llevando a cabo una lluvia de ideas, la cual se puede reforzar a través de la consulta bibliográfica, revisión de información en la Web, observación del tipo de piezas gráficas que se manejan en algunos sitios y lugares en la calle o a través del intercambio de ideas con el equipo de trabajo. El boceto es considerado como un modelo de representación o el primer dibujo del prototipo, en donde se proyectan diferentes ideas con un mismo fin, a continuación, más información:
+        p Para obtener información sobre cómo realizar un proyecto gráfico se debe iniciar llevando a cabo una lluvia de ideas, la cual se puede reforzar a través de la consulta bibliográfica, revisión de información en la Web, observación del tipo de piezas gráficas que se manejan en algunos sitios y lugares en la calle o a través del intercambio de ideas con el equipo de trabajo. El boceto es considerado como un modelo de representación o el primer dibujo del prototipo, en donde se proyectan diferentes ideas con un mismo fin. A continuación, más información:
         .row.bg-elemento.justify-content-center.py-3.align-items-end(data-aos="fade-down") 
           .col-md-3.col-4.mb-4.mb-md-0
             img.px-md-3(src='@/assets/curso/tema1-1-ico.svg', alt='Icono decorativo')
@@ -64,7 +64,7 @@
       .col-md-10  
         PasosA.color-acento-contenido(tipo="n")
           .row.justify-content-center
-            .col-md-2.col-6.mb-4.mb-md-0
+            .col-lg-2.col-md-3.col-4.mb-4.mb-md-0
               img.px-md-2(src='@/assets/curso/tema1-2-paso1.svg', alt='Definir alcance del proyecto')
             .col-md-9
               h4 Definir alcance del proyecto
@@ -73,10 +73,10 @@
             .col-md-9.mb-4.mb-md-0
               h4 <em>Brief</em>
               p Desarrollar el <em>brief</em> posibilita un mejor entendimiento entre las partes y la concepción de la idea a plasmar; contiene información necesaria para  iniciar a planificar o ejecutar el proyecto.
-            .col-md-2.col-6
+            .col-lg-2.col-md-3.col-4
               img.px-md-2(src='@/assets/curso/tema1-2-paso2.svg', alt='Brief')
           .row.justify-content-center
-            .col-md-2.col-6.mb-4.mb-md-0
+            .col-lg-2.col-md-3.col-3.mb-4.mb-md-0
               img.px-md-2(src='@/assets/curso/tema1-2-paso3.svg', alt='Lluvia de ideas')
             .col-md-9
               h4 Lluvia de ideas
@@ -85,10 +85,10 @@
             .col-md-9.mb-4.mb-md-0
               h4 Estrategia
               p En este punto se desarrollan las estrategias (acciones) que se llevarán a cabo para la consecución del proyecto. La estrategia es el plan para lograr los objetivos. 
-            .col-md-2.col-6
+            .col-lg-2.col-md-3.col-4
               img.px-md-2(src='@/assets/curso/tema1-2-paso4.svg', alt='Estrategia')
           .row.justify-content-center
-            .col-md-2.col-6.mb-4.mb-md-0
+            .col-lg-2.col-md-3.col-4.mb-4.mb-md-0
               img.px-md-2(src='@/assets/curso/tema1-2-paso5.svg', alt='Bocetación')
             .col-md-9
               h4 Bocetación
@@ -97,10 +97,10 @@
             .col-md-9.mb-4.mb-md-0
               h4 Artes finales
               p Esta etapa materializa la realización del producto final, con todos los requerimientos, materiales y cambios finales, para garantizar que el contenido no tiene errores y está listo para la impresión.
-            .col-md-2.col-6
+            .col-lg-2.col-md-3.col-3
               img.px-md-3(src='@/assets/curso/tema1-2-paso6.svg', alt='Artes finales')
           .row.justify-content-center
-            .col-md-2.col-6.mb-4.mb-md-0
+            .col-lg-2.col-md-3.col-4.mb-4.mb-md-0
               img.px-md-2(src='@/assets/curso/tema1-2-paso7.svg', alt='Retroalimentación final')
             .col-md-9
               h4 Retroalimentación final
@@ -200,7 +200,7 @@
 
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta.bg-suave.p-4
-          img.mb-4(src='@/assets/curso/tema1-4-tarj3.svg', alt='Observación del producto gráfico a partir de las siguientes variables')
+          img.mb-3(src='@/assets/curso/tema1-4-tarj3.svg', alt='Observación del producto gráfico a partir de las siguientes variables')
           h4.text-center Observación del producto gráfico a partir de las siguientes variables
           .tarjeta__contenido
             ul.lista-ul--color.mb-0
@@ -219,15 +219,15 @@
 
 
     .row.bg-elemento.justify-content-center.py-3.align-items-end.mb-5(data-aos="fade-down") 
-      .col-md-3.col-5.mb-4.mb-md-0
-        img.px-md-5(src='@/assets/curso/tema1-4-ico.svg', alt='Icono decorativo')
-      .col-md-8
+      .col-lg-3.col-md-3.col-5.mb-4.mb-md-0
+        img.px-lg-5.px-md-1(src='@/assets/curso/tema1-4-ico.svg', alt='Icono decorativo')
+      .col-lg-8.col-md-9
         .row.align-items-center
-          .col-md-10.mb-3.mb-md-0
+          .col-lg-10.col-md-8.mb-3.mb-md-0
             h4.mb-md-1 Orden de producción
             p.text-small.mb-2 A manera de ejemplo se presenta el siguiente orden de producción, se recomienda la descarga, revisión e identificación de todos los aspectos que son requeridos antes de la impresión. 
             p.text-small.mb-0 Nota. Se tomó con base en Hanato (s.f).
-          .col-md-1
+          .col-lg-1.col-md-1
             a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Orden_de_produccion.jpg')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download

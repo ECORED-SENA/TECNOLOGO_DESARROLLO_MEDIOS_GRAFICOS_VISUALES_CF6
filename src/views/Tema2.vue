@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.bloque-fondo-intro2
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.bloque-fondo-intro
 
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
@@ -17,7 +17,7 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-down") 
       .col-md-10
-        .row.cajon.color-acento-botones.p-4
+        .row.cajon.color-acento-botones.align-items-center.p-4
           .col-md-5.mb-4.mb-md-0
             img.px-md-4(src='@/assets/curso/tema2-img.svg', alt='Imagen decorativa')
           .col-md-7
@@ -58,14 +58,14 @@
     p.mb-4(data-aos="fade") Para desarrollar el prototipo de empaques es necesario tener en cuenta:
 
     .row.justify-content-center.tarjetas-flip1.mb-5(data-aos="fade-down")
-      .col-sm-6.col-xl-4.mb-4
+      .col-md-6.col-xl-4.mb-4
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip1.svg')})`}")
             .tarjeta-flip__contenido.text-center.p-4
               h4 Contenido
               p.mb-0 Determinar cuál será el contenido que va a llevar el empaque, sólido, líquido, fluido, pulverizado, esto ayuda a concebir la idea creativa, elegir insumos, sustratos, colores, forma, tamaño, peso. Por ejemplo, la gelatina viene en una caja de cartoncillo que a su vez está empacada en una bolsa por sus características físicas. 
-      .col-sm-6.col-xl-4.mb-4
+      .col-md-6.col-xl-4.mb-4
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -73,7 +73,7 @@
             .tarjeta-flip__contenido.text-center.p-4
               h4 Materiales a utilizar
               p.mb-0 El empaque protege el producto, al escoger los materiales a utilizar se deben tener en cuenta las propiedades del mismo, especialmente los empaques de alimentos y bebidas que deben cumplir con requerimientos específicos por sus características de durabilidad, el crecimiento de bacterias, patógenos, duración de sabor y color. Es fundamental escoger los materiales correctos, ya que no es lo mismo un empaque para leche, que uno para atún.
-      .col-sm-6.col-xl-4.mb-4
+      .col-md-6.col-xl-4.mb-4
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip3.svg')})`}")
@@ -81,22 +81,22 @@
               h4 Tamaño y capacidad del mismo
               p.mb-0 Calcular el tamaño de un empaque suele ser uno de los problemas más comunes en su diseño. Por lo general se realizan cambios en el prototipo por la dificultad de calcular el volumen de los productos, por ejemplo, se realiza una caja para zapatos; sin embargo, se debe tener en cuenta que las tallas para adulto van del número 34 hasta el 44, aproximadamente. 
 
-      .col-sm-6.col-xl-4.mb-4
+      .col-md-6.col-xl-4.mb-4
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip4.svg')})`}")
             .tarjeta-flip__contenido.text-center.p-4
               h4 Temperatura dentro del empaque
-              p.mb-0 Tener presente la temperatura a la cual debe estar un producto dentro de su empaque es importante, ya que puede limitar el diseño y los materiales a utilizar. La temperatura en el interior puede generar. por ejemplo, gases que dañan el producto como tal, incluso al empaque en algunas ocasiones. 
-      .col-sm-6.col-xl-4.mb-4
+              p.mb-0 Tener presente la temperatura a la cual debe estar un producto dentro de su empaque es importante, ya que puede limitar el diseño y los materiales a utilizar. La temperatura en el interior puede generar, por ejemplo, gases que dañan el producto como tal, incluso al empaque en algunas ocasiones. 
+      .col-md-6.col-xl-4.mb-4
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip5.svg')})`}")
             .tarjeta-flip__contenido.text-center.p-4
               h4 Complementos del diseño
-              p.mb-0 Antes de tener en cuenta un prototipo final es importante saber que complementos van a acompañar al mismo, por ejemplo, el uso de etiquetas o pestañas, esto puede cambiar el diseño por completo.
-      .col-sm-6.col-xl-4.mb-4
+              p.mb-0 Antes de tener en cuenta un prototipo final es importante saber qué complementos van a acompañar al mismo, por ejemplo, el uso de etiquetas o pestañas, esto puede cambiar el diseño por completo.
+      .col-md-6.col-xl-4.mb-4
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip6.svg')})`}")
@@ -104,19 +104,19 @@
               h4 Ensamble
               p.mb-0 Algunos empaques tienen ensambles en su construcción, estos procesos pueden requerir técnicas adicionales en la impresión o materiales a utilizar. 
 
-      .col-sm-6.col-xl-4.mb-4
+      .col-md-7.col-lg-6.col-xl-4.mb-4
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip7.svg')})`}")
             .tarjeta-flip__contenido.text-center.p-4
               h4 Recursos, métodos de producción y tecnologías
-              p.mb-0 El proceso de producción puede requerir de diversos métodos y medios tecnológicos, que deben de estar presente en la concepción misma del proyecto.       
+              p.mb-0 El proceso de producción puede requerir de diversos métodos y medios tecnológicos, que deben estar presentes en la concepción misma del proyecto.       
 
 
     p.mb-4(data-aos="fade") Tenga en cuenta que es importante lograr acoplar las siguientes variables, que se encuentran en la figura 3,  para finalizar con un excelente producto: 
 
     .row.justify-content-center.mb-5(data-aos="fade-down") 
-      .col-md-8
+      .col-lg-8.col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 <b>Figura 3.</b> Buen producto
         figure
@@ -126,7 +126,7 @@
 
     .row.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema2-img2.png', alt='Imagen decorativa')
+        img(src='@/assets/curso/tema2-tabs2.png', alt='Imagen decorativa')
       .col-md-8.mb-4(data-aos="fade-left")
         TabsC.color-acento-botones
           .tarjeta.bg-color-primario2.p-4(titulo="Modelos funcionales")
@@ -156,17 +156,17 @@
       h3.mb-0 Funcionalidad y usos de los prototipos
       img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
 
-    .row
-      .col-md-7.mb-4(data-aos="fade-right")
+    .row.mb-lg-0.mb-md-4
+      .col-lg-7.mb-4(data-aos="fade-right")
         p Como el proceso de prototipado puede resultar muy costoso debido a las herramientas utilizadas y a la elaboración de muchas pruebas, se recomienda evaluar la necesidad del prototipo y qué tan importante es que se previsualice con el máximo realismo el producto terminado. 
         h5 Los prototipos se utilizan para reducir el margen de riesgo, la incertidumbre del cliente respecto al producto terminado y su viabilidad, el aspecto y la percepción del producto a través de su vista previa.
         p Asimismo, el prototipo permite seleccionar la propuesta de diseño a través de 3D, donde se pueden verificar las aristas, superficies, estabilidad, empaque, las zonas de etiquetado, los colores, los dobleces, los códigos de barra, la revisión de los acabados, el análisis de las dimensiones, el ensamble y la capacidad interna del producto y la usabilidad, entre otros aspectos, etc. 
         .cajon.color-primario.p-4.mb-4 
           p.mb-0 Teniendo un prototipo se puede realizar la presentación al cliente para conocer su satisfacción, así como estudios con los consumidores. El análisis de estos aspectos permitirá ajustar el prototipo, lo que conduce a tener un producto final de excelente calidad y así reducir el margen de error y ahorrar en costos, pues se tomarán buenas decisiones desde la etapa de creación hasta la producción final.
             br
-            | Hoy se habla de los dummies que son prototipos a escala natural de un producto, conservando todas las características visuales, de diseño, color, textura, dimensiones y son un medio muy importante para comunicar una marca o un producto. También se habla con frecuencia de los renders, que son prototipos que consisten en una visualización digital en 3D de un producto.
-      .col-md-5.mb-4(data-aos="fade-left")  
-        img(src='@/assets/curso/tema2-img3.png', alt='Imagen decorativa')
+            | Hoy se habla de los <em>dummies</em> que son prototipos a escala natural de un producto, conservando todas las características visuales, de diseño, color, textura, dimensiones y son un medio muy importante para comunicar una marca o un producto. También se habla con frecuencia de los <em>renders</em>, que son prototipos que consisten en una visualización digital en 3D de un producto.
+      .col-lg-5.mb-4(data-aos="fade-left")  
+        img.px-lg-0.px-md-5(src='@/assets/curso/tema2-img3.png', alt='Imagen decorativa')
 
 
     .titulo-tercero.titulo-tercero__5.mb-5(data-aos="fade-right")
@@ -274,7 +274,7 @@
           p Visualmente el empaque debe atraer al consumidor o generarle curiosidad, es el contacto emotivo y psicológico con el producto. El color permite transmitir un mensaje o emoción concreta. 
         .col-md-5
           figure.mb-4
-            img(src='@/assets/curso/tema2-tab-1.png', alt='Colores')
+            img(src='@/assets/curso/tema2-tab-3.png', alt='Colores')
       .row.justify-content-center.py-4.py-md-5(titulo="Tipografía" :icono="require('@/assets/curso/tema2-ico4-a.svg')" :icono2="require('@/assets/curso/tema2-ico4-b.svg')")
         .col-md-5
           h4 Tipografía 
@@ -314,24 +314,24 @@
 
     .row.justify-content-center(data-aos="fade-down") 
       .col-md-10.mb-4
-        .row.justify-content-center.tarjeta.bg-acento-botones.p-4
-          .col-md-2.mb-4.mb-md-0
+        .row.justify-content-center.align-items-center.tarjeta.bg-acento-botones.p-4
+          .col-lg-2.col-md-3.col-4.mb-4.mb-md-0
             img.px-md-3(src='@/assets/curso/tema2-1-ico1.svg', alt='Imagen decorativa')
-          .col-md-9
+          .col-lg-9.col-md-8
             h4 Envase
             p.mb-0 Recipiente que tiene contacto directo con el producto específico, con la función de envasarlo y protegerlo. 
       .col-md-10.mb-4
-        .row.justify-content-center.tarjeta.bg-acento-botones.p-4
-          .col-md-2.mb-4.mb-md-0
+        .row.justify-content-center.align-items-center.tarjeta.bg-acento-botones.p-4
+          .col-lg-2.col-md-3.col-4.mb-4.mb-md-0
             img.px-md-3(src='@/assets/curso/tema2-1-ico2.svg', alt='Imagen decorativa')
-          .col-md-9
+          .col-lg-9.col-md-8
             h4 Empaque
             p.mb-0 Recipiente o envoltura que contiene un producto de manera temporal. 
       .col-md-10
         .row.justify-content-center.tarjeta.bg-acento-botones.p-4
-          .col-md-2.mb-4.mb-md-0
+          .col-lg-2.col-md-3.col-4.mb-4.mb-md-0
             img.px-md-3(src='@/assets/curso/tema2-1-ico3.svg', alt='Imagen decorativa')
-          .col-md-9
+          .col-lg-9.col-md-8
             h4 Embalaje
             p Contiene varias unidades de un producto y prepara la carga de la forma más adecuada para el modo de transporte elegido para su despacho. El embalaje ofrece algunas ventajas como: 
             ul.lista-ul--color.mb-0
@@ -364,7 +364,7 @@
             figure
               img(src='@/assets/curso/tema2-2-tarj1.png', alt='Texto que describa la imagen')  
         h1 Empaque natural
-        p Está compuesto principalmente por materiales o medios amigables con el medio ambiente. Un ejemplo claro de este tipo de empaques se encentra en la misma naturaleza, como la envoltura natural de la mazorca de maíz. 
+        p Está compuesto principalmente por materiales o medios amigables con el medio ambiente. Un ejemplo claro de este tipo de empaques se encuentra en la misma naturaleza, como la envoltura natural de la mazorca de maíz. 
       .col-md.tarjeta.color-primario.text-center.p-5(data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-12
@@ -433,7 +433,7 @@
               .tarjeta.bg-acento-botones
                 .text-center.p-4
                   h5 Mecánicos
-                  p Protegen en el momento de la carga y embalaje al producto, de sobrecargas, golpes y maltrato generado en el almacenamiento y distribución, deterioro en el set de exhibición. 
+                  p Protegen en el momento de la carga y embalaje al producto, de sobrecargas, golpes y maltrato generado en el almacenamiento y distribución, deterioro en el <em>set</em> de exhibición. 
           .col-md-6.col-lg-6.mb-4
             .tarjeta-avatar
               img(src='@/assets/curso/tema2-2-ico2.svg' alt='Químicos')
@@ -461,7 +461,7 @@
     .row
       .col-md-4.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema2-2-img.png', alt='Imagen decorativa')
-      .col-md-8(data-aos="fade-left")
+      .col-md-8.mb-4(data-aos="fade-left")
         TabsC.color-acento-botones
           .tarjeta.bg-color-primario2.p-4(titulo="Producto")
             h4 Producto
@@ -490,22 +490,19 @@
           .tarjeta.bg-color-primario2.p-4(titulo="Vendedor")
             h4 Vendedor
             p En el área de estanterías de ventas un empaque con un diseño funcional y realizado con los materiales correctos permitirá el ahorro de espacio, ser llamativo dentro de las demás marcas y así generar mejores ganancias al dueño.          
-
-    .titulo-tercero.titulo-tercero__4.mb-5(data-aos="fade-right")
-      h3.mb-0 Estado
-      img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
-
-    p.mb-4(data-aos="fade") Se beneficia de todas las transacciones mercantiles y de venta que realicen los particulares, ya que por estas cobra impuestos e IVA, entre otros.
+          .tarjeta.bg-color-primario2.p-4(titulo="Estado")
+            h4 Estado
+            p Se beneficia de todas las transacciones mercantiles y de venta que realicen los particulares, ya que por estas cobra impuestos e IVA, entre otros.
 
     .row.bg-elemento.justify-content-center.py-3.align-items-end(data-aos="fade-down") 
-      .col-md-2.col-5.mb-4.mb-md-0
+      .col-lg-2.col-md-3.col-5.mb-4.mb-md-0
         img.px-md-3(src='@/assets/curso/team2-2-img2.svg', alt='Icono decorativo')
-      .col-md-8
+      .col-lg-8.col-md-9
         .row.align-items-center
-          .col-md-10.mb-3.mb-md-0
+          .col-lg-10.col-md-8.mb-3.mb-md-0
             h4.mb-md-1 Principales materiales para envases, empaques y embalajes
             p Para conocer más sobre los principales materiales para envases, empaques y embalajes revise muy atentamente el siguiente documento: 
-          .col-md-1
+          .col-lg-1.col-md-1
             a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Materiales.docx')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
@@ -520,41 +517,41 @@
     .row
       .col-md-7.mb-4(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-4 
-          p.mb-0 En la industria se utilizan gran diversidad de materiales, especialmente derivados de fibras de celulosa procedentes de la pulpa de la madera.
-        p La impresión flexo gráfica es el método que utiliza una plancha en relieve flexible que permite imprimir sobre diferentes tipos de sustrato; la industria del empaque ha tenido un gran desarrollo, lo que ha hecho que sus costos se reduzcan. En diseño, la selección apropiada del sustrato (papel, tela, material de reciclaje, plástico o metal) es muy importante. Se debe tener en cuenta al momento de elegir el sustrato, la terminación o textura de la superficie, color, gramaje y características de la impresión. Igualmente, las planchas flexibles fácilmente se adaptan a superficies ligeramente desiguales por lo que se puede imprimir en sustratos como el cartón, sin ejercer mucha presión. Uno de los sustratos que se encuentran en el mercado es el cartón recubierto, que es la materia prima esencial para producir empaques plegables. 
+          p.mb-0 En la industria se utiliza gran diversidad de materiales, especialmente derivados de fibras de celulosa procedentes de la pulpa de la madera.
+        p La impresión flexográfica es el método que utiliza una plancha en relieve flexible que permite imprimir sobre diferentes tipos de sustrato; la industria del empaque ha tenido un gran desarrollo, lo que ha hecho que sus costos se reduzcan. En diseño, la selección apropiada del sustrato (papel, tela, material de reciclaje, plástico o metal) es muy importante. Se debe tener en cuenta al momento de elegir el sustrato, la terminación o textura de la superficie, color, gramaje y características de la impresión. Igualmente, las planchas flexibles fácilmente se adaptan a superficies ligeramente desiguales por lo que se puede imprimir en sustratos como el cartón, sin ejercer mucha presión. Uno de los sustratos que se encuentran en el mercado es el cartón recubierto, que es la materia prima esencial para producir empaques plegables. 
       .col-md-5.mb-4(data-aos="fade-left")  
         img(src='@/assets/curso/tema2-3-img.png', alt='Imagen decorativa')
 
-    p.mb-4(data-aos="fade") El cartón es un sustrato formado por la transposición de papeles, como en capas, lo que le otorga mayor resistencia y dureza; existen básicamente cuatro variedades de cartón recubierto: reciclado recubierto, cartón sólido blanqueado, kraft no blanqueado recubierto y plegadizo para cajas, como se muestra a continuación:
+    p.mb-4(data-aos="fade") El cartón es un sustrato formado por la transposición de papeles, como en capas, lo que le otorga mayor resistencia y dureza; existen básicamente cuatro variedades de cartón recubierto: reciclado recubierto, cartón sólido blanqueado, <em>kraft</em> no blanqueado recubierto y plegadizo para cajas, como se muestra a continuación:
 
-    .row.justify-content-center.mb-4(data-aos="fade-down") 
+    .row.justify-content-center.mb-5(data-aos="fade-down") 
       .col-md-10.tarjeta.bg-suave2.py-5
         ImagenInfograficaB.color-acento-botones
           template(v-slot:imagen)
-            figure
-              img.px-md-5(src='@/assets/curso/team2-3-infog.svg', alt='Texto que describa la imagen')
+            figure.px-lg-5
+              img.px-lg-5(src='@/assets/curso/team2-3-infog.svg', alt='Texto que describa la imagen')
 
-          .row(x="40%" y="39.8%" tooltip="Cartón Reciclado Recubierto" numero="")
+          .row.bg-color-primario2.py-4(x="41.5%" y="39.8%" tooltip="Clic para ver más" numero="")
             .col-md-3
               img.px-md-4(src='@/assets/curso/tema2-3-modal1.svg', alt='Cartón Reciclado Recubierto')
             .col-md-9
               h4 Cartón Reciclado Recubierto (CRR) o cartón dúplex y de respaldo gris. En inglés se conoce como CCN y WLC
               p Esta referencia es la predominante en la industria, es importante destacar que cuando se está imprimiendo es menos flexible que otras variedades.
               p Es el cartón más económico que se usa en empaques que no requieran una excelente impresión, resistencia o limpieza, pues se elabora con una mezcla de fibras que han sido recicladas, del papel periódico impreso, cajas o contenedores corrugados, que tienen un recubrimiento multicapa. 
-          .row(x="60%" y="39.8%" tooltip="Cartón sólido blanqueado o CSB" numero="")
+          .row.bg-color-primario2.py-4(x="58.5%" y="39.8%" tooltip="Clic para ver más" numero="")
             .col-md-3
               img.px-md-5(src='@/assets/curso/tema2-3-modal2.svg', alt='Cartón sólido blanqueado o CSB')
             .col-md-9
               h4 Cartón sólido blanqueado o CSB
               p Tradicionalmente esta es la referencia más costosa, este tipo de cartón puede tener un pigmento blanco con una capa de estuco que puede ser doble o triple en la parte superior, y una o dos en el reverso. El CSB, en la prensa, ofrece excelente impresión, buenas propiedades de formado y procesado y, como su estructura es homogénea es ideal para la elaboración de empaques premium, tiene gran consistencia y no tiene polvo de papel que le genere imperfecciones, por eso se usa en empaques de lujo. Asimismo, las fibras delgadas y cortas de esta madera hacen que se obtenga una superficie muy lisa, lo que ayuda a alcanzar empaques lujosos de alta calidad de impresión, se usa en productos cosméticos, farmacéuticos, publicidad y artes gráficas, instrumentos médicos y cigarrillos, entre otros.
               p También puede combinarse con otros materiales y utilizarse en la elaboración de empaques para líquidos. Se utiliza especialmente para productos que requieran olor y gusto neutro. 
-          .row(x="60%" y="59.8%" tooltip="Cartón recubierto no blanqueado (CRNB)" numero="")
+          .row.bg-color-primario2.py-4(x="58.5%" y="59.8%" tooltip="Clic para ver más" numero="")
             .col-md-3
               img.px-md-5(src='@/assets/curso/tema2-3-modal3.svg', alt='Cartón recubierto no blanqueado')
             .col-md-9
               h4 Cartón recubierto no blanqueado (CRNB) o <em>Kraft</em>, o CNK o SUS en inglés
               p Este cartón es más económico que el CSB. Normalmente se fabrica exclusivamente con pasta química no blanqueada, de dos o tres capas de estuco en la cara superior, a veces se coloca una capa de estuco en el reverso. Los espesores de este cartón varían entre 14 y 30 puntos, por lo que son utilizados en empaques de alimentos congelados. 
-          .row(x="40%" y="59.8%" tooltip="Cartón <em>folding</em>" numero="")
+          .row.bg-color-primario2.py-4(x="41.5%" y="59.8%" tooltip="Clic para ver más" numero="")
             .col-md-3
               img.px-md-4(src='@/assets/curso/tema2-3-modal4.svg', alt='Cartón folding o para cajas plegables o FBB/GC/UC')
             .col-md-9
@@ -564,16 +561,16 @@
     p.mb-4(data-aos="fade") Ahora, se estudiará otros materiales diferentes al papel:
 
     .row.justify-content-center
-      .col-md-9 
+      .col-lg-10.col-md-9
         .row.justify-content-center.tarjetas-flip2(data-aos="fade-down")
-          .col-sm-6.col-xl-6.mb-4
+          .col-lg-6.col-xl-6.mb-4
             .tarjeta.tarjeta-flip.color-primario
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-3-flip1.svg')})`}")
                 .tarjeta-flip__contenido.text-center.p-4
                   h4 Metal
                   p.mb-0 Se emplea como material rígido, especialmente para contener tanto elementos sólidos como líquidos, ya que permiten un sellamiento total. Estos envases por lo general están hechos en aluminio y hojalata; por sus características físicas, este tipo de empaques ofrecen una mayor durabilidad y capacidad de conservación, entre los productos que se pueden encontrar con este tipo de empaques están las gaseosas, aceites, pinturas, dulces, entre muchos otros. 
-          .col-sm-6.col-xl-6.mb-4
+          .col-lg-6.col-xl-6.mb-4
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
@@ -581,14 +578,14 @@
                 .tarjeta-flip__contenido.text-center.p-4
                   h4 Vidrio
                   p.mb-0 Es utilizado por sus características específicas, ya que es una opción reutilizable y muy higiénica, la cual permite conservar las características organolépticas de vinos, medicamentos, entre otros. 
-          .col-sm-6.col-xl-6.mb-4
+          .col-lg-6.col-xl-6.mb-4
             .tarjeta.tarjeta-flip.color-primario
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-3-flip4.svg')})`}")
                 .tarjeta-flip__contenido.text-center.p-4
                   h4 Textil
                   p.mb-0 Este tipo de materia prima es utilizada principalmente en bolsas promocionales y de almacenes de cadena. 
-          .col-sm-6.col-xl-6.mb-4
+          .col-lg-6.col-xl-6.mb-4
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
@@ -607,47 +604,47 @@
     .row.justify-content-center
       .col-md-10
         .cajon.color-primario.p-4.mb-4 
-          p.mb-0 Muchos productos por su naturaleza y características físicas necesitan dónde reposar. Un buen empaque determina en gran medida el éxito o fracaso de un producto, más allá de las cualidades y características del producto mismo, el primer contacto del cliente es de carácter visual, algo que es aprovechado por el diseño y el marketing en general. 
+          p.mb-0 Muchos productos por su naturaleza y características físicas necesitan dónde reposar. Un buen empaque determina en gran medida el éxito o fracaso de un producto, más allá de las cualidades y características del producto mismo, el primer contacto del cliente es de carácter visual, algo que es aprovechado por el diseño y el <em>marketing</em> en general. 
 
     p(data-aos="fade") Al crear el prototipo de cualquier empaque se deben identificar diversos factores concernientes al diseño y a su funcionalidad; aunque el empaque es lo primero que observa el consumidor, detrás de su desarrollo hay un sinfín de variables y problemáticas por resolver. Más allá del diseño, la imagen o la forma, el diseño de empaques requiere incorporar en tiempos modernos una experiencia sensorial.
 
     p.mb-4(data-aos="fade") Antes de diseñar el empaque se debe tener en cuenta:
 
     .row  
-      .col-md-4.mb-4.d-flex
+      .col-lg-4.col-md-9.mb-4.d-flex
         .tarjeta-numerada.tarjeta2-4.color-acento-contenido.px-4.py-3
           .tarjeta-numerada__numero.text-white
             .h3 1
           .row.justify-content-center.align-items-center
-            .col-md-5 
+            .col-lg-5.col-4
               img.px-md-2(src='@/assets/curso/tema2-4-ico1.svg', alt='Icono decorativo')
-            .col-md-6  
+            .col-md-6.col-6  
               h4.mb-0 Características del producto
-      .col-md-4.mb-4.d-flex
+      .col-lg-4.col-md-9.mb-4.d-flex
         .tarjeta-numerada.tarjeta2-4.color-acento-contenido.px-4.py-3
           .tarjeta-numerada__numero.text-white
             .h3 2
           .row.justify-content-center.align-items-center
-            .col-md-5 
+            .col-lg-5.col-5 
               img.px-md-2(src='@/assets/curso/tema2-4-ico2.svg', alt='Icono decorativo')
-            .col-md-6  
+            .col-md-6.col-6
               h4.mb-0 Finalidad del producto
-      .col-md-4.mb-4.d-flex
+      .col-lg-4.col-md-9.mb-4.d-flex
         .tarjeta-numerada.tarjeta2-4.color-acento-contenido.px-4.py-3
           .tarjeta-numerada__numero.text-white
             .h3 3
           .row.justify-content-center.align-items-center
-            .col-md-5 
+            .col-lg-5.col-4
               img.px-md-2(src='@/assets/curso/tema2-4-ico3.svg', alt='Icono decorativo')
-            .col-md-6  
-              h4.mb-0 Medios de transporte y condiciones del mismo
+            .col-md-6.col-6
+              h4.mb-0 Medios de transporte y condiciones de este
 
     p.mb-4(data-aos="fade") La ingeniería de empaques busca proteger de manera segura los productos, para ser embalados y transportados, estudiando su desarrollo, fallas estructurales y funcionales. Elementos como el uso, la competencia, las estrategias de mercado y los materiales que están en auge se tienen en cuenta en la elaboración del empaque, a partir de estos parámetros básicos se empiezan a realizar bocetos y prototipos, los cuales pueden ir cambiando de aspecto durante este proceso. 
 
     .row.bg-elemento.justify-content-center.py-3.align-items-end.mb-4(data-aos="fade-down") 
-      .col-md-3.col-5.mb-4.mb-md-0
+      .col-lg-3.col-md-4.col-5.mb-4.mb-md-0
         img.px-md-3(src='@/assets/curso/tema2-4-img.svg', alt='Icono decorativo')
-      .col-md-7
+      .col-lg-7.col-md-7
         h4 Diversas preguntas nacen al inicio de este proceso, algunas de ellas:
         ul.lista-ul--color.mb-0
           li.mb-1
@@ -655,7 +652,7 @@
             | ¿Cuál va a ser su uso?
           li.mb-1
             i.fas.fa-chevron-right
-            | ¿Cuál material se va a utilizar?
+            | ¿Qué material se va a utilizar?
           li.mb-1
             i.fas.fa-chevron-right
             | ¿Cuáles son los procesos que se van a requerir?
@@ -708,7 +705,7 @@
           h4 Impresión
           p En este paso se realiza la reproducción del documento original sobre papel; sin embargo, existen variedad de materiales sobre los cuales imprimir, siendo necesario emplear diferentes procesos de impresión.
           .row.mb-0
-            .col-md-6.py-2.bg-suave
+            .col-xl-5.col-md-12.py-2.mx-1.bg-suave
               p Sistemas convencionales de impresión: 
               ul.lista-ul--color.mb-0
                 li.mb-0
@@ -723,7 +720,7 @@
                 li.mb-0
                   i.fas.fa-chevron-right
                   | Serigrafía.
-            .col-md-5.mx-3.py-2.bg-suave
+            .col-xl-5.col-md-12.mx-1.py-2.bg-suave
               p Sistemas digitales de impresión:
               ul.lista-ul--color.mb-0
                 li.mb-0
@@ -737,7 +734,7 @@
       .row.tarjeta.bg-color-primario2.p-4(titulo="Acabados")
         .col-md-6.mb-4
           h4 Acabados
-          p Se refiere a los procesos posteriores a la impresión, para dar diferentes tipos de terminados al producto dentro de los que se destacan:
+          p Se refiere a los procesos posteriores a la impresión, para dar diferentes tipos de terminados al producto, dentro de los que se destacan:
           ul.lista-ul--color.mb-0
             li.mb-0
               i.fas.fa-chevron-right
@@ -750,7 +747,7 @@
               | Uso de plastificados, para proteger y dar durabilidad a los elementos, como cuadernos, cartillas, etc.
             li.mb-0
               i.fas.fa-chevron-right
-              | Uso de barnice litográfico parcial o total. 
+              | Uso de barniz litográfico parcial o total. 
             li.mb-0
               i.fas.fa-chevron-right
               | Troquelados, repujados, efectos con estampados al calor, entre otros.        
@@ -758,7 +755,7 @@
           img(src='@/assets/curso/tema2-5-slide6.png', alt='Acabados')
 
 
-    p(data-aos="fade") Como ya se ha mencionado, el empaque constituye una herramienta de mercadeo, distribución y venta de un producto, porque coadyuva en fortalecer la imagen corporativa, posicionar la marca, influir en la decisión de compra por el consumidor; igualmente, el empaque sirve para proteger el producto, facilitando la manipulación y la conservación de este, preservando su calidad, además que debe ser funcional, innovador y amigable con el medio ambiente. En general, el empaque está orientado hacia el marketing y deben cumplir con varios requisitos. 
+    p(data-aos="fade") Como ya se ha mencionado, el empaque constituye una herramienta de mercadeo, distribución y venta de un producto, porque coadyuva en fortalecer la imagen corporativa, posicionar la marca, influir en la decisión de compra por el consumidor; igualmente, el empaque sirve para proteger el producto, facilitando la manipulación y la conservación de este, preservando su calidad, además que debe ser funcional, innovador y amigable con el medio ambiente. En general, el empaque está orientado hacia el <em>marketing</em> y debe cumplir con varios requisitos. 
 
     p.mb-4(data-aos="fade") Al tener en cuenta todos estos aspectos, dependiendo del tipo de producto para el que se diseñe el empaque, es necesario consultar las diferentes normas, que el Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC) ha establecido para cada tipo de producto, en lo relacionado con el diseño del empaque, de conformidad con las Normas Técnicas Colombianas (NTC). 
 
@@ -767,7 +764,7 @@
         p Asimismo, se deben tener en cuenta las normas expedidas por el Organismo Internacional de Estandarización (ISO), igualmente, de la Superintendencia de Industria y Comercio (SIC), así como algunos ministerios que profieren normas relacionadas con el diseño técnico de los empaques, que es necesario tener en cuenta antes de realizar el diseño respectivo. Todas estas normas deben aplicarse al diseño del empaque, especialmente si se trata de productos a exportar, debido a los altos estándares exigidos por numerosos países.
       .col-md-7.mb-4(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-4 
-          p.mb-0 Por ejemplo, el Ministerio de Agricultura y Desarrollo Rural y el Ministerio de Comercio, Industria y Turismo por medio de la Resolución 0224 de 2007 expidieron el Reglamento Técnico No. RTC-002 MADR, por medio del cual regularon los requisitos mínimos que deben cumplir los empaques de los productos agrícolas para consumo humano que se importen, se produzcan y se comercialicen en el territorio colombiano. 
+          p.mb-0 Por ejemplo, el Ministerio de Agricultura y Desarrollo Rural y el Ministerio de Comercio, Industria y Turismo por medio de la Resolución 0224 de 2007 expidieron el Reglamento Técnico Nro. RTC-002 MADR, por medio del cual regularon los requisitos mínimos que deben cumplir los empaques de los productos agrícolas para consumo humano que se importen, se produzcan y se comercialicen en el territorio colombiano. 
 
     p.mb-4(data-aos="fade") Igualmente, algunos ejemplos relacionados con las normas establecidas por el ICONTEC en relación con el tema son:
 
@@ -781,7 +778,7 @@
         .tarjeta.bg-color-primario2.p-4
           h4.text-center NTC 1468:  
           .tarjeta__contenido
-            p.text-center Estableció los requisitos que deben tener los ensayos a los cuales se deben someter los envases de papel o cartón que se usan para envasar la leche, lácteos y jugos. La norma habla del material en que se deben diseñar los empaques, las tintas a usar para su impresión, espesor y en general el cuidado con la salud de las personas.
+            p.text-center Estableció los requisitos que deben tener los ensayos a los cuales se deben someter los envases de papel o cartón que se usan para envasar la leche, lácteos y jugos. La norma habla del material en que se deben diseñar los empaques, las tintas a usar para su impresión, espesor y en general, el cuidado con la salud de las personas.
       .col-md-4.col-xl.mb-4.d-flex
         .tarjeta.bg-acento-botones.p-4
           h4.text-center NTC 512-1 y NTC 512-2:  
@@ -805,18 +802,19 @@
 
     p.mb-4(data-aos="fade") Son todos los pasos anteriores a la impresión, en los cuales se realizan las correcciones y cambios concernientes a un archivo original, para su correcta impresión. A continuación, podrá conocer más acerca de este importante proceso. 
 
+
     .row.bg-elemento.justify-content-center.py-3.align-items-end.mb-5(data-aos="fade-down") 
-      .col-md-2.col-5.mb-4.mb-md-0
+      .col-lg-2.col-md-3.col-5.mb-4.mb-md-0
         img.px-md-3(src='@/assets/curso/tema2-5-ico1.svg', alt='Icono decorativo')
-      .col-md-8
+      .col-lg-8.col-md-9
         .row.align-items-center
-          .col-md-10.mb-3.mb-md-0
+          .col-lg-10.col-md-8.mb-3.mb-md-0
             h4.mb-md-1 Proceso de preprensa y sus características específicas
             p Observe el video sobre el proceso de preprensa y sus características específicas, para una mejor contextualización de este importante tema.
-          .col-md-1
+          .col-lg-1.col-md-1
             a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
               span Descargar
-              i.fas.fa-file-download
+              i.fas.fa-file-download          
 
 
     .titulo-tercero.titulo-tercero__6.mb-5(data-aos="fade-right")
@@ -857,14 +855,14 @@
           .row.justify-content-center
             .col-md-11
               h5.mb-0 Sobreimpresión
-              p.mb-0 Superposición de un color sobre otro (ayuda a evitar el desregistro). contaminándose entre sí. 
+              p.mb-0 Superposición de un color sobre otro (ayuda a evitar el desregistro) contaminándose entre sí. 
           .row.justify-content-center
             .col-md-11
               h5.mb-0 Montaje
               p.mb-0 Distribución de una hoja o pieza de diseño en un área para fines de optimización de papel plegado. 
           .row.justify-content-center
             .col-md-11
-              h5.mb-0 Pantone
+              h5.mb-0 <em>Pantone</em>
               p.mb-0 Colores de simulación de estándares de tintas, preparadas por fabricantes determinados. 
           .row.justify-content-center
             .col-md-11
@@ -940,24 +938,14 @@
         ul.lista-ul--color.mb-0
           li
             i.fas.fa-chevron-right
-            | Manejo y uso de tinta negra y las tintas especiales. Tener en cuenta las tintas especiales como Pantones, ya que el sistema tradicional solo está concebido para tintas en CMYK verificando el código que lo caracteriza, por ejemplo, el negro que se utiliza en impresión realmente no es profundo y denso, por esta razón hay que utilizar la mezcla en CMYK, para potencializarlo y que se vea realmente negro, para esto realice una combinación de porcentajes así: C 75 %, M 55 %, Y 40%, K 100%.
+            | Manejo y uso de tinta negra y las tintas especiales. Tener en cuenta las tintas especiales como Pantones, ya que el sistema tradicional solo está concebido para tintas en CMYK verificando el código que lo caracteriza, por ejemplo, el negro que se utiliza en impresión realmente no es profundo y denso, por esta razón hay que utilizar la mezcla en CMYK, para potencializarlo y que se vea realmente negro, para esto realice una combinación de porcentajes así: C 75 %, M 55 %, Y 40 %, K 100 %.
           li
             i.fas.fa-chevron-right
-            | Tamaño y resolución de las imágenes. Tener en cuenta el tamaño y resolución de las imágenes, esto con el fin de preservar la calidad, hay que recordar que una buena resolución para impresión es de 300 ppp (píxeles por pulgada).
+            | Tamaño y resolución de las imágenes. Tener en cuenta el tamaño y resolución de las imágenes, esto con el fin de preservar la calidad. Hay que recordar que una buena resolución para impresión es de 300 ppp (píxeles por pulgada).
           li
             i.fas.fa-chevron-right
             | Revisar vínculos a tipografías, imágenes y gráficos.  
-
-
-
-
-
-    .titulo-tercero.titulo-tercero__4.mb-4(data-aos="fade-right")
-      h3.mb-0 Síntesis
-      img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
-
-    figure.mb-4
-      img(src='@/assets/curso/tema-sintesis.svg', alt='Síntesis')
+   
 
 
 

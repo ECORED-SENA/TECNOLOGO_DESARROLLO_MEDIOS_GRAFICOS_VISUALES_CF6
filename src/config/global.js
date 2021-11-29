@@ -91,6 +91,13 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        icono: 'far fa-file-alt',
+        numero: '',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
@@ -129,22 +136,22 @@ export default {
   referencias: [
     {
       referencia:
-        'Acoplásticos. (2021). Empaques y envases. Normas Nacionales.',
+        'Acoplásticos. (2021). Empaques y envases. Normas Nacionales. ',
       link: 'https://www.acoplasticos.org/index.php/mnu-noti/258',
     },
     {
       referencia:
-        'Angarita, P. (s.f). Sistemas de impresión costos y presupuestos CUN sede Santa Marta. CUN.',
+        'Angarita, P. (s.f). Sistemas de impresión costos y presupuestos CUN sede Santa Marta. CUN. ',
       link: 'https://sistemascostosypresupuestoscun.wordpress.com/',
     },
     {
       referencia:
-        'Color en el medio. (s.f). Pre-prensa digital. Color en el medio [Blog].',
+        'Color en el medio. (s.f). Pre-prensa digital. Color en el medio [Blog]. ',
       link: 'https://colorenelmedio.wordpress.com/pre-prensa-digital/',
     },
     {
       referencia:
-        'Ferrada, A. (2018). Manual de instrucciones para preprensa. Universidad del Desarrollo. Facultad de Diseño.',
+        'Ferrada, A. (2018). Manual de instrucciones para preprensa. Universidad del Desarrollo. Facultad de Diseño. ',
       link: 'https://repositorio.udd.cl/handle/11447/2333',
     },
     {
@@ -154,7 +161,7 @@ export default {
     },
     {
       referencia:
-        'Izquierdo, T. (2020). Diccionario de diseño gráfico: +100 palabras de diseño explicadas para no diseñadores [Blog].',
+        'Izquierdo, T. (2020). Diccionario de diseño gráfico: +100 palabras de diseño explicadas para no diseñadores [Blog]. ',
       link: 'https://taniaizquierdo.com/diccionario-diseno-grafico/',
     },
     {
@@ -163,7 +170,8 @@ export default {
       link: 'https://www.madererianasa.com.mx/tipos-de-empaque/',
     },
     {
-      referencia: 'Saraclip. (2017). Arquitectura de la información. Saraclip.',
+      referencia:
+        'Saraclip. (2017). Arquitectura de la información. Saraclip. ',
       link: 'https://www.saraclip.com/tag/glossary/',
     },
   ],
@@ -222,7 +230,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=NH7RS9YXBNw',
     },
     {
-      texto: 'Acoplásticos. (2021). Empaques y envases Normas Nacionales.',
+      texto: 'Acoplásticos. (2021). Empaques y envases. Normas Nacionales.',
       tipo: 'Página web',
       link: 'https://www.acoplasticos.org/index.php/mnu-noti/258',
     },
@@ -243,7 +251,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Guillermo Eduardo González T.',
+        nombre: 'Guillermo Eduardo González Tarazona',
         cargo: 'Instructor ',
         centro:
           'Centro para la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
@@ -304,7 +312,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',

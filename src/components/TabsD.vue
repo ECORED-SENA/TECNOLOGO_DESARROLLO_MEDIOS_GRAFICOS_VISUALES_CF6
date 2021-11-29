@@ -77,7 +77,7 @@ export default {
       height: 55px
     &__title
       text-align: center
-      font-size: $h6-font-size
+      font-size: 16px
       line-height: 1.1em
       display: flex
       height: 100%
@@ -95,6 +95,7 @@ export default {
         background-color: $white
       .tabs-b__tab__title
         font-weight: $base-bold-font-weight
+        font-size: 16px
 
     @media (min-width: $bp-min-sm) and (max-width: $bp-max-md)
       border-top: 2px solid #AFAFAF
