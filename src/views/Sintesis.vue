@@ -10,7 +10,7 @@
       h1 Síntesis
     
     figure.mb-4
-      img(src='@/assets/curso/tema-sintesis.svg', alt='Síntesis')
+      img(src='@/assets/curso/tema-sintesis2.svg', alt='Síntesis')
 
     
 </template>

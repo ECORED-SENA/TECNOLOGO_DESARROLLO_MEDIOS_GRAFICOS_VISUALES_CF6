@@ -503,7 +503,7 @@
             h4.mb-md-1 Principales materiales para envases, empaques y embalajes
             p Para conocer más sobre los principales materiales para envases, empaques y embalajes revise muy atentamente el siguiente documento: 
           .col-lg-1.col-md-1
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Materiales.docx')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Prototipado-Anexo_Materiales.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 
