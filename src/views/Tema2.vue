@@ -544,29 +544,29 @@
             figure.px-lg-5
               img.px-lg-5(src='@/assets/curso/team2-3-infog.svg', alt='Texto que describa la imagen')
 
-          .row.bg-color-primario2.py-4(x="41.5%" y="39.8%" tooltip="Clic para ver más" numero="")
-            .col-md-3
-              img.px-md-4(src='@/assets/curso/tema2-3-modal1.svg', alt='Cartón Reciclado Recubierto')
+          .row.justify-content-center.bg-color-primario2.py-4(x="41.5%" y="39.8%" tooltip="Clic para ver más" numero="")
+            .col-md-3.col-3.mb-4.mb-md-0
+              img.px-lg-4(src='@/assets/curso/tema2-3-modal1.svg', alt='Cartón Reciclado Recubierto')
             .col-md-9
               h4 Cartón Reciclado Recubierto (CRR) o cartón dúplex y de respaldo gris. En inglés se conoce como CCN y WLC
               p Esta referencia es la predominante en la industria, es importante destacar que cuando se está imprimiendo es menos flexible que otras variedades.
               p Es el cartón más económico que se usa en empaques que no requieran una excelente impresión, resistencia o limpieza, pues se elabora con una mezcla de fibras que han sido recicladas, del papel periódico impreso, cajas o contenedores corrugados, que tienen un recubrimiento multicapa. 
-          .row.bg-color-primario2.py-4(x="58.5%" y="39.8%" tooltip="Clic para ver más" numero="")
-            .col-md-3
-              img.px-md-5(src='@/assets/curso/tema2-3-modal2.svg', alt='Cartón sólido blanqueado o CSB')
+          .row.justify-content-center.bg-color-primario2.py-4(x="58.5%" y="39.8%" tooltip="Clic para ver más" numero="")
+            .col-md-3.col-3.mb-4.mb-md-0
+              img.px-lg-5.px-3(src='@/assets/curso/tema2-3-modal2.svg', alt='Cartón sólido blanqueado o CSB')
             .col-md-9
               h4 Cartón sólido blanqueado o CSB
               p Tradicionalmente esta es la referencia más costosa, este tipo de cartón puede tener un pigmento blanco con una capa de estuco que puede ser doble o triple en la parte superior, y una o dos en el reverso. El CSB, en la prensa, ofrece excelente impresión, buenas propiedades de formado y procesado y, como su estructura es homogénea es ideal para la elaboración de empaques premium, tiene gran consistencia y no tiene polvo de papel que le genere imperfecciones, por eso se usa en empaques de lujo. Asimismo, las fibras delgadas y cortas de esta madera hacen que se obtenga una superficie muy lisa, lo que ayuda a alcanzar empaques lujosos de alta calidad de impresión, se usa en productos cosméticos, farmacéuticos, publicidad y artes gráficas, instrumentos médicos y cigarrillos, entre otros.
               p También puede combinarse con otros materiales y utilizarse en la elaboración de empaques para líquidos. Se utiliza especialmente para productos que requieran olor y gusto neutro. 
-          .row.bg-color-primario2.py-4(x="58.5%" y="59.8%" tooltip="Clic para ver más" numero="")
-            .col-md-3
-              img.px-md-5(src='@/assets/curso/tema2-3-modal3.svg', alt='Cartón recubierto no blanqueado')
+          .row.justify-content-center.bg-color-primario2.py-4(x="58.5%" y="59.8%" tooltip="Clic para ver más" numero="")
+            .col-md-3.col-3.mb-4.mb-md-0
+              img.px-lg-5.px-3(src='@/assets/curso/tema2-3-modal3.svg', alt='Cartón recubierto no blanqueado')
             .col-md-9
               h4 Cartón recubierto no blanqueado (CRNB) o <em>Kraft</em>, o CNK o SUS en inglés
               p Este cartón es más económico que el CSB. Normalmente se fabrica exclusivamente con pasta química no blanqueada, de dos o tres capas de estuco en la cara superior, a veces se coloca una capa de estuco en el reverso. Los espesores de este cartón varían entre 14 y 30 puntos, por lo que son utilizados en empaques de alimentos congelados. 
-          .row.bg-color-primario2.py-4(x="41.5%" y="59.8%" tooltip="Clic para ver más" numero="")
-            .col-md-3
-              img.px-md-4(src='@/assets/curso/tema2-3-modal4.svg', alt='Cartón folding o para cajas plegables o FBB/GC/UC')
+          .row.justify-content-center.bg-color-primario2.py-4(x="41.5%" y="59.8%" tooltip="Clic para ver más" numero="")
+            .col-md-3.col-3.mb-4.mb-md-0
+              img.px-lg-4(src='@/assets/curso/tema2-3-modal4.svg', alt='Cartón folding o para cajas plegables o FBB/GC/UC')
             .col-md-9
               h4 Cartón folding o para cajas plegables o FBB/GC/UC
               p También se conoce como cartón cromo estucado, se fabrica a base de varias capas de fibras vírgenes cortas, gruesas y rígidas. Tiene máximo tres capas de estucado en el anverso y en algunos casos también está estucado en el reverso. Se utiliza en empaques en los que la rigidez en el empaque o envase son muy importantes. Sus aplicaciones gráficas pueden ser postales y tarjetas o sobres para diferentes ocasiones, así como en empaques de productos de belleza, productos farmacéuticos, cigarrillos, alimentos y envases sofisticados para dulces, confites y bebidas.       
