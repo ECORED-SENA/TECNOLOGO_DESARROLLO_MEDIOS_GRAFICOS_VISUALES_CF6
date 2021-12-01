@@ -31,11 +31,11 @@
       .col-md-7.mb-4(data-aos="fade-right")
         p Para obtener información sobre cómo realizar un proyecto gráfico se debe iniciar llevando a cabo una lluvia de ideas, la cual se puede reforzar a través de la consulta bibliográfica, revisión de información en la Web, observación del tipo de piezas gráficas que se manejan en algunos sitios y lugares en la calle o a través del intercambio de ideas con el equipo de trabajo. El boceto es considerado como un modelo de representación o el primer dibujo del prototipo, en donde se proyectan diferentes ideas con un mismo fin. A continuación, más información:
         .row.bg-elemento.justify-content-center.py-3.align-items-end(data-aos="fade-down") 
-          .col-md-3.col-4.mb-4.mb-md-0
-            img.px-md-3(src='@/assets/curso/tema1-1-ico.svg', alt='Icono decorativo')
+          .col-lg-3.col-md-4.col-4.mb-4.mb-md-0
+            img.px-lg-3.px-md-1.px-4(src='@/assets/curso/tema1-1-ico.svg', alt='Icono decorativo')
           .col-md-8
             .row.align-items-center
-              .col-md-8.mb-3.mb-md-0
+              .col-lg-8.mb-lg-0.mb-md-2.mb-3
                 h4.mb-md-1 Boceto
                 p.text-small.mb-0 Observe el video <b>Boceto y prototipo</b> para contar con una mejor contextualización sobre este tema importante.
               .col-md-1
