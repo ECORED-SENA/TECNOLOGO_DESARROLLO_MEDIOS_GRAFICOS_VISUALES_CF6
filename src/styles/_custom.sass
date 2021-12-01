@@ -106,13 +106,24 @@ italic-strong
   flex-direction: column
   justify-content: center  
 .tarjetas-flip2 .tarjeta-flip
-    height: 350px  
+  height: 350px  
+.tarjeta-flip.color-primario .tarjeta-flip__img
+  display: flex
+  justify-content: center
+.tarjeta-flip__img-content
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  align-items: center
+.tarjeta-flip__img-content h4
+  color: #FFF !important
+  text-align: center
 @media (min-width: $bp-min-xxl)
   .tarjetas-flip1 .tarjeta-flip
     height: 350px
 @media (max-width: $bp-max-md)   
   .tarjetas-flip1 .tarjeta-flip
-    height: 390px
+    height: 420px
 @media (max-width: $bp-max-sm)   
   .tarjetas-flip1 .tarjeta-flip
     height: 430px
@@ -142,6 +153,7 @@ italic-strong
   color: $color-sistema-texto !important 
 .img-infografica__item__tooltip, .img-infografica-b__item__tooltip
   background-color: #FFD1A2
+  font-size: 19px
 .img-infografica-b__modal__contenido div > *
   color: $color-sistema-texto !important 
 .img-infografica-b__modal__btn-cerrar i
@@ -155,6 +167,9 @@ italic-strong
 .tarjeta2-4.tarjeta-numerada.color-acento-contenido
   background-color: #B1F9FF
   border-color: #B1F9FF
+@media (max-width: $bp-max-md) 
+  .tarjeta2-4
+    width: 100%
 
 
 .lista-ul--color.color-acento-botones li > i:first-of-type

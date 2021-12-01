@@ -91,15 +91,15 @@ export default {
           },
         ],
       },
+    ],
+    subMenu: [
       {
         nombreRuta: 'sintesis',
-        icono: 'far fa-file-alt',
+        icono: 'fas fa-sitemap',
         numero: '',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
       },
-    ],
-    subMenu: [
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',

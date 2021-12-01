@@ -62,6 +62,8 @@
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip1.svg')})`}")
+              .tarjeta-flip__img-content
+                h4 Contenido
             .tarjeta-flip__contenido.text-center.p-4
               h4 Contenido
               p.mb-0 Determinar cuál será el contenido que va a llevar el empaque, sólido, líquido, fluido, pulverizado, esto ayuda a concebir la idea creativa, elegir insumos, sustratos, colores, forma, tamaño, peso. Por ejemplo, la gelatina viene en una caja de cartoncillo que a su vez está empacada en una bolsa por sus características físicas. 
@@ -70,6 +72,8 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip2.svg')})`}")
+              .tarjeta-flip__img-content
+                h4 Materiales a utilizar
             .tarjeta-flip__contenido.text-center.p-4
               h4 Materiales a utilizar
               p.mb-0 El empaque protege el producto, al escoger los materiales a utilizar se deben tener en cuenta las propiedades del mismo, especialmente los empaques de alimentos y bebidas que deben cumplir con requerimientos específicos por sus características de durabilidad, el crecimiento de bacterias, patógenos, duración de sabor y color. Es fundamental escoger los materiales correctos, ya que no es lo mismo un empaque para leche, que uno para atún.
@@ -77,6 +81,8 @@
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip3.svg')})`}")
+              .tarjeta-flip__img-content
+                h4 Tamaño y capacidad del mismo
             .tarjeta-flip__contenido.text-center.p-4
               h4 Tamaño y capacidad del mismo
               p.mb-0 Calcular el tamaño de un empaque suele ser uno de los problemas más comunes en su diseño. Por lo general se realizan cambios en el prototipo por la dificultad de calcular el volumen de los productos, por ejemplo, se realiza una caja para zapatos; sin embargo, se debe tener en cuenta que las tallas para adulto van del número 34 hasta el 44, aproximadamente. 
@@ -85,14 +91,17 @@
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip4.svg')})`}")
+              .tarjeta-flip__img-content
+                h4 Temperatura dentro del empaque
             .tarjeta-flip__contenido.text-center.p-4
               h4 Temperatura dentro del empaque
               p.mb-0 Tener presente la temperatura a la cual debe estar un producto dentro de su empaque es importante, ya que puede limitar el diseño y los materiales a utilizar. La temperatura en el interior puede generar, por ejemplo, gases que dañan el producto como tal, incluso al empaque en algunas ocasiones. 
       .col-md-6.col-xl-4.mb-4
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip5.svg')})`}")
+              .tarjeta-flip__img-content
+                h4 Complementos del diseño
             .tarjeta-flip__contenido.text-center.p-4
               h4 Complementos del diseño
               p.mb-0 Antes de tener en cuenta un prototipo final es importante saber qué complementos van a acompañar al mismo, por ejemplo, el uso de etiquetas o pestañas, esto puede cambiar el diseño por completo.
@@ -100,6 +109,8 @@
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip6.svg')})`}")
+              .tarjeta-flip__img-content
+                h4 Ensamble
             .tarjeta-flip__contenido.text-center.p-4
               h4 Ensamble
               p.mb-0 Algunos empaques tienen ensambles en su construcción, estos procesos pueden requerir técnicas adicionales en la impresión o materiales a utilizar. 
@@ -108,6 +119,8 @@
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-flip7.svg')})`}")
+              .tarjeta-flip__img-content
+                h4 Recursos, métodos de producción y tecnologías
             .tarjeta-flip__contenido.text-center.p-4
               h4 Recursos, métodos de producción y tecnologías
               p.mb-0 El proceso de producción puede requerir de diversos métodos y medios tecnológicos, que deben estar presentes en la concepción misma del proyecto.       
@@ -567,6 +580,8 @@
             .tarjeta.tarjeta-flip.color-primario
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-3-flip1.svg')})`}")
+                  .tarjeta-flip__img-content
+                    h4 Metal
                 .tarjeta-flip__contenido.text-center.p-4
                   h4 Metal
                   p.mb-0 Se emplea como material rígido, especialmente para contener tanto elementos sólidos como líquidos, ya que permiten un sellamiento total. Estos envases por lo general están hechos en aluminio y hojalata; por sus características físicas, este tipo de empaques ofrecen una mayor durabilidad y capacidad de conservación, entre los productos que se pueden encontrar con este tipo de empaques están las gaseosas, aceites, pinturas, dulces, entre muchos otros. 
@@ -575,6 +590,8 @@
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-3-flip2.svg')})`}")
+                  .tarjeta-flip__img-content
+                    h4 Vidrio
                 .tarjeta-flip__contenido.text-center.p-4
                   h4 Vidrio
                   p.mb-0 Es utilizado por sus características específicas, ya que es una opción reutilizable y muy higiénica, la cual permite conservar las características organolépticas de vinos, medicamentos, entre otros. 
@@ -582,6 +599,8 @@
             .tarjeta.tarjeta-flip.color-primario
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-3-flip4.svg')})`}")
+                  .tarjeta-flip__img-content
+                    h4 Textil
                 .tarjeta-flip__contenido.text-center.p-4
                   h4 Textil
                   p.mb-0 Este tipo de materia prima es utilizada principalmente en bolsas promocionales y de almacenes de cadena. 
@@ -590,6 +609,8 @@
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2-3-flip3.svg')})`}")
+                  .tarjeta-flip__img-content
+                    h4 Madera
                 .tarjeta-flip__contenido.text-center.p-4
                   h4 Madera
                   p.mb-0 Utilizado principalmente en embalaje de productos, por su gran durabilidad, resistencia y protección.
@@ -616,7 +637,7 @@
           .tarjeta-numerada__numero.text-white
             .h3 1
           .row.justify-content-center.align-items-center
-            .col-lg-5.col-4
+            .col-lg-5.col-3
               img.px-md-2(src='@/assets/curso/tema2-4-ico1.svg', alt='Icono decorativo')
             .col-md-6.col-6  
               h4.mb-0 Características del producto
@@ -625,7 +646,7 @@
           .tarjeta-numerada__numero.text-white
             .h3 2
           .row.justify-content-center.align-items-center
-            .col-lg-5.col-5 
+            .col-lg-5.col-3
               img.px-md-2(src='@/assets/curso/tema2-4-ico2.svg', alt='Icono decorativo')
             .col-md-6.col-6
               h4.mb-0 Finalidad del producto
@@ -634,7 +655,7 @@
           .tarjeta-numerada__numero.text-white
             .h3 3
           .row.justify-content-center.align-items-center
-            .col-lg-5.col-4
+            .col-lg-5.col-3
               img.px-md-2(src='@/assets/curso/tema2-4-ico3.svg', alt='Icono decorativo')
             .col-md-6.col-6
               h4.mb-0 Medios de transporte y condiciones de este
