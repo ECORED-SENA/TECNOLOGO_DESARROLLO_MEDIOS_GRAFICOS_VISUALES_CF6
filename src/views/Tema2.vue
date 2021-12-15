@@ -833,7 +833,7 @@
             h4.mb-md-1 Proceso de preprensa y sus características específicas
             p Observe el video sobre el proceso de preprensa y sus características específicas, para una mejor contextualización de este importante tema.
           .col-lg-1.col-md-1
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3(href="https://youtu.be/NcXBte4Bogg" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download          
 

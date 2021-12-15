@@ -39,7 +39,7 @@
                 h4.mb-md-1 Boceto
                 p.text-small.mb-0 Observe el video <b>Boceto y prototipo</b> para contar con una mejor contextualización sobre este tema importante.
               .col-md-1
-                a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                a.boton.color-acento-botones.me-3(href="https://youtu.be/KIO100jtL0U" target="_blank" type="application/pdf")
                   span Descargar
                   i.fas.fa-file-download
       .col-md-5(data-aos="fade-left")
