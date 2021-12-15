@@ -39,7 +39,7 @@
                 h4.mb-md-1 Boceto
                 p.text-small.mb-0 Observe el video <b>Boceto y prototipo</b> para contar con una mejor contextualización sobre este tema importante.
               .col-md-4
-                a.boton.color-acento-botones.me-3(href="https://youtu.be/KIO100jtL0U" target="_blank" type="application/pdf")
+                a.boton.color-acento-botones(href="https://youtu.be/KIO100jtL0U" target="_blank" type="application/pdf")
                   span Ver más
                   i.fas.fa-link
       .col-md-5(data-aos="fade-left")
