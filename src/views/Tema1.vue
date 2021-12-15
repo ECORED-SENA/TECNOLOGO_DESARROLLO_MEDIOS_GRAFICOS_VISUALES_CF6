@@ -38,10 +38,10 @@
               .col-lg-8.mb-lg-0.mb-md-2.mb-3
                 h4.mb-md-1 Boceto
                 p.text-small.mb-0 Observe el video <b>Boceto y prototipo</b> para contar con una mejor contextualización sobre este tema importante.
-              .col-md-1
+              .col-md-4
                 a.boton.color-acento-botones.me-3(href="https://youtu.be/KIO100jtL0U" target="_blank" type="application/pdf")
-                  span Descargar
-                  i.fas.fa-file-download
+                  span Ver más
+                  i.fas.fa-link
       .col-md-5(data-aos="fade-left")
         img(src='@/assets/curso/tema1-1-img.png', alt='Imagen decorativa')
 

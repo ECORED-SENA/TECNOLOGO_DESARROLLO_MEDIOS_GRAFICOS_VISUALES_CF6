@@ -829,13 +829,13 @@
         img.px-md-3(src='@/assets/curso/tema2-5-ico1.svg', alt='Icono decorativo')
       .col-lg-8.col-md-9
         .row.align-items-center
-          .col-lg-10.col-md-8.mb-3.mb-md-0
+          .col-lg-9.col-md-8.mb-3.mb-md-0
             h4.mb-md-1 Proceso de preprensa y sus características específicas
             p Observe el video sobre el proceso de preprensa y sus características específicas, para una mejor contextualización de este importante tema.
-          .col-lg-1.col-md-1
+          .col-lg-3.col-md-4
             a.boton.color-acento-botones.me-3(href="https://youtu.be/NcXBte4Bogg" target="_blank" type="application/pdf")
-              span Descargar
-              i.fas.fa-file-download          
+              span Ver más
+              i.fas.fa-link         
 
 
     .titulo-tercero.titulo-tercero__6.mb-5(data-aos="fade-right")
